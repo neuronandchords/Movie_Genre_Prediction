@@ -25,6 +25,7 @@ Will be adding a PyTorch version anytime soon.
 I would highly suggest to work with the model on Cloud as it contains a dataset of 7000 images of size 400*400
 and would require high memory(RAM) along with TPUs to speed up the computations. I would suggest a minimum of 
 35GB Ram with Google Cloud Engine backend TPUs and nothing less than that, because that's what my model took for training. 
+
 **Edit**
 You can reduce the target size from (400,400,3) to whatever your memory requirements you want. For example you can change it to (250,250,3) and it work fine at 16GB of RAM but TPU support is must for enhanced and fast computations. It may/may not affect the accuracy as more complex features cannot be identified in a samller fig size. The model files have been updated to this version so everyone can use it. 
 
